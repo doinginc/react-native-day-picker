@@ -248,6 +248,7 @@ export default class Calendar extends React.Component {
 
 		return (
 			<ListView
+				removeClippedSubviews={false}
 				initialListSize={5}
 				scrollRenderAheadDistance={1200}
 				style={[styles.listViewContainer, directionStyles, style]}
